@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    height: 200px;
+    background-color: #000033;
+    color: #ffffff;
+    display: flex;
+   justify-content: flex-start;
+    
+}
+
+.user-menu {
+    width:900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-self: flex-end;
+    font-size: 18px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    background-color: #cccccc;
+}
+
+.photo-grid {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #000000;
+}
