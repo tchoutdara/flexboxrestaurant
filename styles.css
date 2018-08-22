@@ -6,7 +6,7 @@
 
 .header-container {
     height: 200px;
-    background-color: #000033;
+    background-color: #330033;
     color: #ffffff;
     display: flex;
    justify-content: flex-start;
@@ -29,7 +29,29 @@
 }
 
 .photo-grid {
-    height: 300px;
-    width: 300px;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo-grid-item {
     border: 1px solid #000000;
 }
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #330033;
+}
+ .social {
+    width: 100px;
+    height: 100px;
+ }
