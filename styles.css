@@ -25,9 +25,11 @@
 .photo-container {
     display: flex;
     justify-content: center;
+    padding: 25px;
 }
 
 .photo-grid {
+    padding: 15px;
     width: 900px;
     display: flex;
     justify-content: space-around;
@@ -45,17 +47,18 @@
 
 }
 .info {
-    dispaly: flex;
-    justify-content: center;
     width: 400px;
-
 }
 
 .more-info-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     height: 200px;
+}
+
+.more-info {
+    width: 300px;
 }
 
 .footer {
