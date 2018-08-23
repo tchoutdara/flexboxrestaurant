@@ -25,7 +25,6 @@
 .photo-container {
     display: flex;
     justify-content: center;
-    background-color: #cccccc;
 }
 
 .photo-grid {
@@ -34,16 +33,29 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: 2px solid black;
 }
 
-.photo-grid-item {
-    border: 1px solid #000000;
-}
 
 .info-container {
     display: flex;
-    justify-content: space-around;
-    border: 2px solid black;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+
+}
+.info {
+    dispaly: flex;
+    justify-content: center;
+    width: 400px;
+
+}
+
+.more-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
 }
 
 .footer {
@@ -52,6 +64,6 @@
     background-color: #330033;
 }
  .social {
-    width: 100px;
-    height: 100px;
+    justify-content: space-around;
+    height: 200px;
  }
